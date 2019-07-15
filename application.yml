@@ -1,0 +1,13 @@
+﻿spring:
+  profiles:
+    active: - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: qmhdev
+---
+spring:
+  profiles: test
+  application:
+    name: qmhtest
